@@ -4,11 +4,11 @@
 //  PUBLIMARKET | Bogotá, Colombia
 // ============================================================
 
-define('DB_HOST', getenv('DB_HOST') ?: 'localhost');
-define('DB_PORT', getenv('DB_PORT') ?: '3306');
+define('DB_HOST', getenv('DB_HOST') ?: 'dpg-d7ptpjnavr4c73faolig-a');
+define('DB_PORT', getenv('DB_PORT') ?: '5432');
 define('DB_NAME', getenv('DB_NAME') ?: 'publimarket');
-define('DB_USER', getenv('DB_USER') ?: 'root');
-define('DB_PASS', getenv('DB_PASS') ?: '');
+define('DB_USER', getenv('DB_USER') ?: 'publimarket');
+define('DB_PASS', getenv('DB_PASS') ?: '033qW4I6mfNjnDq62dPv2LFsFBpyoWrH');
 define('DB_CHARSET', 'utf8mb4');
 
 // ─── Singleton PDO ───────────────────────────────────────────
